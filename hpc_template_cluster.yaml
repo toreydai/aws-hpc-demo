@@ -167,11 +167,11 @@ Parameters:
   PreInstallScript:
     Description: Preinstall script URL. This is run before any host configuration.
     Type: String
-    Default: s3://nice-enginframe-cn-north-1/2019.0-r915/enginframe_pre_v1.sh
+    Default: NONE
   PostInstallScript:
     Description: Postinstall script URL. This is run before any host configuration.
     Type: String
-    Default: s3://nice-enginframe-cn-north-1/2019.0-r915/enginframe_post_v1.sh
+    Default: s3://nice-enginframe-cn-north-1/2019.0-r915/enginframe_post_v2.sh
   CustomChefCookbook:
     Description: >-
       URL of custom cookbook that will override the default. This will be
@@ -187,7 +187,7 @@ Parameters:
       Addtional policy document to be added to EC2 IAM role created and assigned
       to all nodes.
     Type: String
-    Default: NONE
+    Default: arn:aws-cn:s3:::nice-enginframe-cn-north-1/2019.0-r915/*
   ResourcesS3Bucket:
     Description: >-
       S3 bucket where resources needed by the stack are located. The bucket gets
