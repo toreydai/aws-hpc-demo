@@ -118,7 +118,7 @@ Parameters:
   Scheduler:
     Description: Cluster scheduler
     Type: String
-    Default: sge
+    Default: slurm
     ConstraintDescription: must be a supported scheduler
     AllowedValues:
       - sge
