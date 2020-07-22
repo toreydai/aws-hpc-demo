@@ -1,4 +1,4 @@
-# hpc
+# AWS HPC Demo
 Resources for nwcd hpc project.
 
 ### Package S3 URL - EnginFrame
